@@ -1,0 +1,46 @@
+.main2 {
+    margin: auto;
+    padding: 15px 25px;
+}
+
+form {
+    margin: auto;
+    padding: 2px;
+    color: #3E403F;
+}
+
+span {
+    line-height: 50px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    min-width: 250px;
+    height: 25px;
+    padding: 4px;
+    border: solid 1px #dddddd;
+    color: #363636;
+}
+
+textarea {
+    width: 100%;
+    min-width: 100%;
+    min-height: 200px;
+    height: 200px;
+    resize: vertical;
+    padding: 4px;
+    border: solid 1px #dddddd;
+    color: #363636;
+}
+
+.submit {
+    width: 12%;
+    height: 35px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #3E403F;
+}
