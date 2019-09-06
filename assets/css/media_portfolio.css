@@ -1,0 +1,13 @@
+@media (max-width: 980px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 640px) {
+  .caption {
+    top: 90%;
+    left: 0%;
+    width: 100%;
+  }
+}
