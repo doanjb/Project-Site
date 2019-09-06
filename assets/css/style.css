@@ -62,9 +62,47 @@ footer {
   top: 85%;
   left: 15%;
   width: 70%;
+  z-index: 1;
 }
 
-.caption p {
-  color: white;
+#github {
+  position: absolute;
+  top: 15%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+#gridItem p {
   background-color: #4aaaa5;
+  color: #fff;
+  padding: 4px 15px;
+}
+
+#gridItem i {
+  color: #4aaaa5;
+  background-color: white;
+  padding: 2px;
+  border-radius: 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+#gridItem:hover .overlay {
+  opacity: 1;
+}
+
+#gridItem p:hover {
+  background-color: #666666;
+}
+
+#gridItem i:hover {
+  color: #666666;
 }
