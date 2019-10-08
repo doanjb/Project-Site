@@ -1,5 +1,6 @@
 @import 'config'; // global variables and functions
 @import 'menu'; // for menu button
+@import 'mobile'; // for mobile
 
 // apply to all
 * {
@@ -29,6 +30,7 @@ h3 {
   }
 
   &.sm-heading {
+    // width: 35%;
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(darken($color: $primary-color, $amount: 35), 0.35);
