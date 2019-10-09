@@ -160,6 +160,9 @@ main {
   grid-gap: 30px;
   grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
+  .about-info h3,
+  .about-info h6 {
+    line-height: 2.5; }
   .about-info h6 {
     font-size: 10px; }
   .about-info .bio-image {
@@ -170,6 +173,8 @@ main {
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
+  .about-info .job {
+    padding: 1rem; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {

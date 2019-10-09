@@ -79,6 +79,11 @@ main {
 }
 
 .about-info {
+	h3,
+	h6 {
+		line-height: 2.5;
+	}
+
 	h6 {
 		font-size: 10px;
 	}
@@ -100,6 +105,10 @@ main {
 	.bio {
 		grid-area: bio;
 		font-size: 1.5rem;
+	}
+
+	.job {
+		padding: 1rem;
 	}
 
 	.job-1 {
