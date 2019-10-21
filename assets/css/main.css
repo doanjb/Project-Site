@@ -159,6 +159,10 @@ main {
     line-height: 2.5; }
   .about-info h6 {
     font-size: 10px; }
+  .about-info .bio-info {
+    background: rgba(36, 36, 36, 0.5);
+    color: #fff;
+    padding: 1rem; }
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
@@ -212,11 +216,11 @@ main {
     height: 2.5rem; }
 
 .btn-dark {
-  background: rgba(36, 36, 36, 0.7);
+  background: rgba(36, 36, 36, 0.5);
   color: #fff; }
 
 .btn-light {
-  background: rgba(36, 36, 36, 0.7);
+  background: rgba(36, 36, 36, 0.5);
   color: #fff; }
 
 @media screen and (min-width: 1171px) {
