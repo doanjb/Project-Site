@@ -23,7 +23,7 @@ h3 {
   margin: 0;
   font-weight: 400;
 
-  //   anything nested inside h1, h2, and h3
+  // anything nested inside h1, h2, and h3
   &.lg-heading {
     font-size: 6rem;
   }
@@ -144,8 +144,9 @@ main {
 // projects
 .projects {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 0.7rem;
+
   img {
     width: 100%;
     border: 3px #fff solid;
@@ -180,16 +181,8 @@ main {
 
 .btn-light {
   @extend .btn;
-  background: lighten($primary-color, 10);
-  color: #fff;
-}
-
-#main-footer {
-  text-align: center;
-  padding: 1rem;
   background: darken($primary-color, 10);
-  color: set-text-color($primary-color);
-  height: 60px;
+  color: #fff;
 }
 
 @import 'mobile'; // for mobile
