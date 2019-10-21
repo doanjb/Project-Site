@@ -29,6 +29,7 @@ h3 {
   }
 
   &.sm-heading {
+    background: rgba($primary-color, 0.5);
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
   }
@@ -86,16 +87,15 @@ main {
 
   .bio-info {
     background: rgba($primary-color, 0.5);
-    color: #fff;
     padding: 1rem;
   }
 
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
-    'bioimage bio bio'
-    'job1 job1 job2';
-  grid-template-columns: repeat(3, 1fr);
+    'bioimage bioimage bio bio bio'
+    'job1 job2 job3 job4 job5';
+  grid-template-columns: repeat(5, 1fr);
 
   .bio-image {
     grid-area: bioimage;
@@ -119,30 +119,29 @@ main {
 
   .job-2 {
     grid-area: job2;
+  }
 
-    table {
-      border-collapse: collapse;
-      width: 100%;
-    }
+  .job-3 {
+    grid-area: job3;
+  }
 
-    th,
-    td {
-      text-align: left;
-      padding: 8px;
-    }
+  .job-4 {
+    grid-area: job4;
+  }
 
-    th {
-      background-color: lighten($primary-color, 5);
-    }
+  .job-5 {
+    grid-area: job5;
 
-    tr {
-      background-color: $primary-color;
+    ul {
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
     }
   }
 
   .job {
-    background: lighten($primary-color, 5);
-    padding: 0.5 rem;
+    background: rgba($primary-color, 0.5);
+    padding: 1 rem;
     border-bottom: $secondary-color 5px solid;
   }
 }
