@@ -103,13 +103,30 @@ main {
       padding: 0;
       transition: opacity 0.5s;
 
-      p {
+      .demo-link {
         color: set-text-color($primary-color);
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
+
+        &:hover {
+          color: $secondary-color;
+        }
+      }
+
+      .github-link {
+        color: set-text-color($primary-color);
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        &:hover {
+          color: $secondary-color;
+        }
       }
     }
 
@@ -122,32 +139,6 @@ main {
       }
     }
   }
-}
-
-// button styles
-.btn {
-  display: block;
-  padding: 0.5rem 1rem;
-  border: 0;
-  margin-bottom: 0.3rem;
-
-  &:hover {
-    background: $secondary-color;
-    color: set-text-color($primary-color);
-    height: 2.5rem;
-  }
-}
-
-.btn-dark {
-  @extend .btn;
-  background: rgba($primary-color, 0.5);
-  color: #fff;
-}
-
-.btn-light {
-  @extend .btn;
-  background: rgba($primary-color, 0.5);
-  color: #fff;
 }
 
 @import 'mobile'; // for mobile

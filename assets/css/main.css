@@ -165,36 +165,29 @@ main {
       position: absolute;
       padding: 0;
       transition: opacity 0.5s; }
-      .projects .grid-image .overlay p {
+      .projects .grid-image .overlay .demo-link {
         color: set-text-color(#242424);
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center; }
+        .projects .grid-image .overlay .demo-link:hover {
+          color: #40dfaf; }
+      .projects .grid-image .overlay .github-link {
+        color: set-text-color(#242424);
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center; }
+        .projects .grid-image .overlay .github-link:hover {
+          color: #40dfaf; }
     .projects .grid-image:hover .overlay {
       border: 2px #fff solid;
       opacity: 0.9;
       border-color: #40dfaf;
       transition: all 0.5s ease-out; }
-
-.btn, .btn-dark, .btn-light {
-  display: block;
-  padding: 0.5rem 1rem;
-  border: 0;
-  margin-bottom: 0.3rem; }
-  .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #40dfaf;
-    color: set-text-color(#242424);
-    height: 2.5rem; }
-
-.btn-dark {
-  background: rgba(36, 36, 36, 0.5);
-  color: #fff; }
-
-.btn-light {
-  background: rgba(36, 36, 36, 0.5);
-  color: #fff; }
 
 @media screen and (min-width: 1171px) {
   .projects {
