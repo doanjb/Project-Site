@@ -51,7 +51,7 @@
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #40dfaf; }
+      color: #7c94fd; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -61,7 +61,7 @@
     font-weight: 300;
     color: #fff; }
     .menu .nav-link:hover {
-      color: #40dfaf;
+      color: #7c94fd;
       transition: all 0.5s ease-out; }
 
 .nav-item:nth-child(1) {
@@ -126,7 +126,7 @@ header {
   width: 100; }
 
 .text-secondary {
-  color: #40dfaf; }
+  color: #7c94fd; }
 
 main {
   padding: 4rem;
@@ -136,7 +136,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #40dfaf;
+        color: #7c94fd;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -173,7 +173,7 @@ main {
         transform: translate(-50%, -50%);
         text-align: center; }
         .projects .grid-image .overlay .demo-link:hover {
-          color: #40dfaf; }
+          color: #7c94fd; }
       .projects .grid-image .overlay .github-link {
         color: set-text-color(#242424);
         position: absolute;
@@ -182,11 +182,11 @@ main {
         transform: translate(-50%, -50%);
         text-align: center; }
         .projects .grid-image .overlay .github-link:hover {
-          color: #40dfaf; }
+          color: #7c94fd; }
     .projects .grid-image:hover .overlay {
       border: 2px #fff solid;
       opacity: 0.9;
-      border-color: #40dfaf;
+      border-color: #7c94fd;
       transition: all 0.5s ease-out; }
 
 @media screen and (min-width: 1171px) {
