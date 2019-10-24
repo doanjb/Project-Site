@@ -8,7 +8,7 @@
 // desktops & laptops
 @include mediaLG {
   .projects {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -37,15 +37,10 @@
     height: 100vh;
     transform: translate3d(100%, 0, 0);
     font-size: 24px;
-    .portrait {
-      background: url('../images/portrait_small.png');
-      width: 150px;
-      height: 150px;
-    }
   }
 
   .projects {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
