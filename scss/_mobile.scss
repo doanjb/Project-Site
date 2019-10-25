@@ -7,6 +7,10 @@
 
 // desktops & laptops
 @include mediaLG {
+  ul.menu-nav {
+    width: 20rem;
+  }
+
   .projects {
     grid-template-columns: repeat(3, 1fr);
   }

@@ -24,7 +24,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.99;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -34,7 +34,7 @@
     align-items: center;
     justify-content: center;
     float: right;
-    width: 30%;
+    width: 20rem;
     height: 100vh;
     overflow: hidden; }
   .menu-nav {
@@ -194,6 +194,8 @@ main {
     grid-template-columns: repeat(4, 1fr); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
+  ul.menu-nav {
+    width: 20rem; }
   .projects {
     grid-template-columns: repeat(3, 1fr); } }
 
